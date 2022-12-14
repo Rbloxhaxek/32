@@ -183,7 +183,7 @@ wait(8.5)
                                                                 game:GetService("Players").LocalPlayer.Character:PivotTo(CFrame.new(133.03944396972656, -10.934976577758789, 2095.33837890625))
                                                                 wait(1)
                                                                                                                                 game:GetService("Players").LocalPlayer.Character:PivotTo(CFrame.new(119.046630859375, -9.4656343460083, 2098.64599609375))
-                                                                                                                                wait(3)
+                                                                                                                                wait(4)
                                                                                                                                        local CFrameEnd = CFrame.new(142.91831970214844, -11.269649505615234, 2099.992919921875) -- Place your coords in here
 local Time = 2 -- Time in seconds
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
