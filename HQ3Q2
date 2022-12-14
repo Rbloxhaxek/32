@@ -171,7 +171,7 @@ elseif Msg == "/rob Power" then
    teleport(CFrame.new(75.75585174560547, 20.190227508544922, 2329.564453125));
    wait(4)
                                                           game:GetService("Players").LocalPlayer.Character:PivotTo(CFrame.new(87.80055236816406, 21.589290618896484, 2322.998291015625))
-                                                          wait(3)
+                                                          wait(4)
                                                           
                                                                 game:GetService("Players").LocalPlayer.Character:PivotTo(CFrame.new(98.83757781982422, 32.8548698425293, 2335.5791015625))
                                                                      local CFrameEnd = CFrame.new(150.3380584716797, 26.964033126831055, 2292.417236328125) -- Place your coords in here
