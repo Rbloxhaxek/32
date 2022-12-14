@@ -1483,7 +1483,7 @@ tween.Completed:Wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))() 
     elseif Msg == "/KillauraKeyboardPress" then
         game.UserInputService.InputEnded:connect(function(input)
-    if input.KeyCode==Enum.KeyCode.P then
+    if input.KeyCode==Enum.KeyCode.Minus then
 game.StarterGui:SetCore("SendNotification", {
 Title = "Killaura by key"; -- the title (ofc)
 Text = "Killaura was Enabled."; -- what the text says (ofc)
@@ -1493,7 +1493,7 @@ Duration = 10; -- how long the notification should in secounds
     end
 end)
 game.UserInputService.InputEnded:connect(function(input)
-    if input.KeyCode==Enum.KeyCode.P then
+    if input.KeyCode==Enum.KeyCode.Minus then
   getgenv().toggled = true-- change this to false to stop kill aura. 
 
 if getgenv().killauraloaded then return end
@@ -1555,7 +1555,7 @@ end
 end)
 
 game.UserInputService.InputEnded:connect(function(input)
-    if input.KeyCode==Enum.KeyCode.U then
+    if input.KeyCode==Enum.KeyCode.KeypadMinus then
            wait()
 game.StarterGui:SetCore("SendNotification", {
 Title = "Killaura by key"; -- the title (ofc)
@@ -1566,7 +1566,7 @@ Duration = 10; -- how long the notification should in secounds
     end
 end)
 game.UserInputService.InputEnded:connect(function(input)
-    if input.KeyCode==Enum.KeyCode.U then
+    if input.KeyCode==Enum.KeyCode.KeypadMinus then
         getgenv().toggled = false-- change this to false to stop kill aura. 
 
 if getgenv().killauraloaded then return end
