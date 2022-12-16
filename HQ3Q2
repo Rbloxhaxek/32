@@ -167,7 +167,7 @@ tween:Play()
 tween.Completed:Wait()
 
 elseif Msg == "/rob power" then
-       game.Workspace.PowerPlant.Piston:Destroy()
+        game.Workspace.PowerPlant.Piston:Destroy()
 game.Workspace.PowerPlant.Piston:Destroy()
 game.Workspace.PowerPlant.Core.PowerWire:Destroy()
         local teleport = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/Jailbreak/Teleporation.lua"))();
@@ -255,6 +255,8 @@ local Time = 1 -- Time in seconds
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
 tween:Play()
 tween.Completed:Wait()
+local N=game:GetService("VirtualInputManager")
+N:SendKeyEvent(true,"X",false,game)
 local CFrameEnd = CFrame.new(61.18678665161133, 21.039396286010742, 2295.204833984375) -- Place your coords in here
 local Time = 1 -- Time in seconds
 local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(Time), {CFrame = CFrameEnd})
@@ -295,9 +297,6 @@ local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.C
 tween:Play()
 tween.Completed:Wait()
    
-
-
-
 
 
 
@@ -427,9 +426,7 @@ local tween =  game:GetService("TweenService"):Create(game.Players.LocalPlayer.C
 tween:Play()
 tween.Completed:Wait()
 elseif Msg == "/rob power2" then
-     game.Workspace.PowerPlant.Piston:Destroy()
-game.Workspace.PowerPlant.Piston:Destroy()
-game.Workspace.PowerPlant.Core.PowerWire:Destroy()
+ 
         local teleport = loadstring(game:HttpGet("https://raw.githubusercontent.com/Introvert1337/RobloxReleases/main/Scripts/Jailbreak/Teleporation.lua"))();
    teleport(CFrame.new(84.1978530883789, 21.459047317504883, 2327.478515625));
    wait(2)
